@@ -1,1 +1,63 @@
-<h1>Prueba de conexión</h1>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lee · Panel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#f6f8f7; --card:#ffffff; --border:#e2e9e5; --teal:#0f9488; --teal-soft:#ddf5ef; --ink:#1c2622; --muted:#70807a; }
+  body { margin:0; font-family:'IBM Plex Sans',system-ui,sans-serif; background:var(--bg); color:var(--ink); }
+  .mono { font-family:'IBM Plex Mono',monospace; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:14px; }
+  .pill { display:inline-flex; align-items:center; gap:7px; background:var(--card); border:1px solid var(--border); border-radius:999px; padding:6px 13px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; font-weight:600; }
+  .dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+  .eyebrow { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); }
+  .dashes { background-image:repeating-linear-gradient(90deg, var(--border) 0 10px, transparent 10px 16px); height:1px; }
+  .wrap { max-width:900px; margin:0 auto; padding:44px 24px 80px; }
+  .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; }
+  @media (max-width:720px) { .grid > * { grid-column:span 12 !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header style="margin-bottom:32px">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;padding-bottom:18px">
+      <div style="display:flex;align-items:center;gap:16px">
+        <div style="width:48px;height:48px;border-radius:50%;flex-shrink:0;background:radial-gradient(circle at 35% 30%,#cdeee6,#a9e2d6);box-shadow:0 0 0 6px rgba(15,148,136,0.08)"></div>
+        <div>
+          <div class="mono" style="font-size:20px;font-weight:700;letter-spacing:0.04em">LEE · PANEL</div>
+          <div style="display:flex;align-items:center;gap:6px;margin-top:2px"><span class="dot" style="background:#22b35a"></span><span class="mono" style="font-size:12px;color:var(--muted)">transmisión en vivo</span></div>
+        </div>
+      </div>
+      <div class="pill" style="color:var(--muted)">actualizado 20 oct · 23:41</div>
+    </div>
+    <div class="dashes"></div>
+  </header>
+
+  <div class="grid">
+    <section class="card" style="grid-column:span 4;padding:26px;text-align:center">
+      <div class="eyebrow" style="text-align:left">Plataforma Bioquímica</div>
+      
+      <div style="position:relative;width:176px;height:176px;margin:22px auto 18px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:radial-gradient(circle at 38% 32%,var(--teal-soft),#ffffff 72%);box-shadow:0 0 0 1px var(--border) inset">
+        <div style="text-align:center"><div class="mono" style="font-size:38px;font-weight:700;color:var(--ink);line-height:1">289</div><div class="eyebrow" style="font-size:9px;margin-top:6px">visitas totales</div></div>
+      </div>
+      <div style="text-align:center"><div class="pill" style="color:var(--teal);border-color:var(--teal-soft);background:var(--teal-soft)">★ NUEVO HITO · 250</div></div>
+    </section>
+    <section class="card" style="grid-column:span 8;padding:26px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:22px">
+        <div class="eyebrow">Servidor · mc-home / CT 112</div>
+        <span class="pill" style="color:#e14b4b;border-color:#f6d3d3"><span class="dot" style="background:#e14b4b"></span>SIN DATOS</span>
+      </div>
+      <div class="mono" style="color:var(--muted);font-size:14px">No se pudo consultar el estado ahora.</div>
+    </section>
+  </div>
+
+  <footer class="mono" style="text-align:center;font-size:10.5px;color:var(--muted);padding-top:30px">
+    generado automáticamente por Lee — solo datos verificados, sin interpretación libre
+  </footer>
+</div>
+</body>
+</html>
