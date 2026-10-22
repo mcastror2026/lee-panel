@@ -1,0 +1,59 @@
+{
+  "consultas": {
+    "actualizado": "21 oct",
+    "cursos": [
+      {
+        "nombre": "Biología Celular",
+        "total": 60,
+        "temas": [
+          {
+            "nombre": "Catabolismo y anabolismo",
+            "veces": 18
+          },
+          {
+            "nombre": "Mitocondrias y cloroplastos",
+            "veces": 8
+          },
+          {
+            "nombre": "Glicolisis y ciclo Krebs",
+            "veces": 7
+          },
+          {
+            "nombre": "Estructura celular y transporte",
+            "veces": 8
+          },
+          {
+            "nombre": "Formato bibliográfico Vancouver",
+            "veces": 4
+          }
+        ]
+      },
+      {
+        "nombre": "Bioquímica",
+        "total": 16,
+        "temas": [
+          {
+            "nombre": "Metabolismo de la fructosa",
+            "veces": 5
+          },
+          {
+            "nombre": "Fermentación y piruvato",
+            "veces": 2
+          },
+          {
+            "nombre": "Fosforilación oxidativa",
+            "veces": 2
+          },
+          {
+            "nombre": "Regulación de la glicemia",
+            "veces": 2
+          },
+          {
+            "nombre": "Propiedades de amortiguadores",
+            "veces": 1
+          }
+        ]
+      }
+    ]
+  }
+}
