@@ -1,37 +1,54 @@
 {
   "consultas": {
-    "actualizado": "26 oct",
+    "actualizado": "2 nov",
     "cursos": [
       {
         "nombre": "Biología Celular",
-        "total": 24,
+        "total": 8,
         "temas": [
-          {
-            "nombre": "Catabolismo y anabolismo",
-            "veces": 10
-          },
           {
             "nombre": "Ciclo de Krebs",
             "veces": 2
           },
           {
-            "nombre": "Glicólisis y ATP",
+            "nombre": "Piruvato y su metabolismo",
             "veces": 2
           },
           {
-            "nombre": "Membrana y organelos",
+            "nombre": "Mitocondria",
             "veces": 2
           },
           {
-            "nombre": "Metabolismo bacteriano",
-            "veces": 2
+            "nombre": "Resumen proceso general",
+            "veces": 1
           }
         ]
       },
       {
         "nombre": "Bioquímica",
-        "total": 19,
-        "temas": []
+        "total": 8,
+        "temas": [
+          {
+            "nombre": "Metabolismo del glicógeno",
+            "veces": 4
+          },
+          {
+            "nombre": "Glicólisis",
+            "veces": 2
+          },
+          {
+            "nombre": "Ciclo de Cori",
+            "veces": 1
+          },
+          {
+            "nombre": "Gluconeogénesis",
+            "veces": 1
+          },
+          {
+            "nombre": "Glucagón",
+            "veces": 1
+          }
+        ]
       }
     ]
   },
