@@ -53,12 +53,12 @@
     ]
   },
   "servidor": {
-    "cpu_pct": 1,
-    "ram_pct": 12,
-    "ram_usado_gb": "1,9",
+    "cpu_pct": 0,
+    "ram_pct": 13,
+    "ram_usado_gb": "2,0",
     "ram_total_gb": "15,5",
     "disco_pct": 8
   },
-  "visitas": 416,
+  "visitas": 417,
   "respaldo": "1 nov · 03:06"
 }
