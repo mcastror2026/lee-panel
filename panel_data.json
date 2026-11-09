@@ -1,52 +1,40 @@
 {
   "consultas": {
-    "actualizado": "2 nov",
+    "actualizado": "9 nov",
     "cursos": [
       {
         "nombre": "Biología Celular",
-        "total": 8,
+        "total": 1,
         "temas": [
           {
-            "nombre": "Ciclo de Krebs",
-            "veces": 2
-          },
-          {
-            "nombre": "Piruvato y su metabolismo",
-            "veces": 2
-          },
-          {
-            "nombre": "Mitocondria",
-            "veces": 2
-          },
-          {
-            "nombre": "Resumen proceso general",
+            "nombre": "ciclo celular",
             "veces": 1
           }
         ]
       },
       {
         "nombre": "Bioquímica",
-        "total": 8,
+        "total": 46,
         "temas": [
           {
-            "nombre": "Metabolismo del glicógeno",
+            "nombre": "Mantenimiento glucosa ayuno",
+            "veces": 8
+          },
+          {
+            "nombre": "Definición glucólisis",
+            "veces": 8
+          },
+          {
+            "nombre": "Almacenamiento glucosa postprandial",
             "veces": 4
           },
           {
-            "nombre": "Glicólisis",
-            "veces": 2
+            "nombre": "Ciclo glucosa-lactato",
+            "veces": 4
           },
           {
-            "nombre": "Ciclo de Cori",
-            "veces": 1
-          },
-          {
-            "nombre": "Gluconeogénesis",
-            "veces": 1
-          },
-          {
-            "nombre": "Glucagón",
-            "veces": 1
+            "nombre": "Glucogenolisis",
+            "veces": 4
           }
         ]
       }
