@@ -1,42 +1,37 @@
 {
   "consultas": {
-    "actualizado": "9 nov",
+    "actualizado": "16 nov",
     "cursos": [
       {
         "nombre": "Biología Celular",
-        "total": 1,
+        "total": 40,
         "temas": [
           {
-            "nombre": "ciclo celular",
-            "veces": 1
+            "nombre": "Etapas y características de la mitosis",
+            "veces": 9
+          },
+          {
+            "nombre": "Estructura y función del ADN",
+            "veces": 8
+          },
+          {
+            "nombre": "Ciclo celular y regulación",
+            "veces": 4
+          },
+          {
+            "nombre": "Cromatina y organización nuclear",
+            "veces": 4
+          },
+          {
+            "nombre": "Genética y citología básica",
+            "veces": 3
           }
         ]
       },
       {
         "nombre": "Bioquímica",
-        "total": 46,
-        "temas": [
-          {
-            "nombre": "Mantenimiento glucosa ayuno",
-            "veces": 8
-          },
-          {
-            "nombre": "Definición glucólisis",
-            "veces": 8
-          },
-          {
-            "nombre": "Almacenamiento glucosa postprandial",
-            "veces": 4
-          },
-          {
-            "nombre": "Ciclo glucosa-lactato",
-            "veces": 4
-          },
-          {
-            "nombre": "Glucogenolisis",
-            "veces": 4
-          }
-        ]
+        "total": 0,
+        "temas": []
       }
     ]
   },
