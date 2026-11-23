@@ -1,37 +1,58 @@
 {
   "consultas": {
-    "actualizado": "16 nov",
+    "actualizado": "23 nov",
     "cursos": [
       {
         "nombre": "Biología Celular",
-        "total": 40,
+        "total": 17,
         "temas": [
           {
-            "nombre": "Etapas y características de la mitosis",
-            "veces": 9
+            "nombre": "Replicación del ADN",
+            "veces": 6
           },
           {
-            "nombre": "Estructura y función del ADN",
-            "veces": 8
-          },
-          {
-            "nombre": "Ciclo celular y regulación",
-            "veces": 4
-          },
-          {
-            "nombre": "Cromatina y organización nuclear",
-            "veces": 4
-          },
-          {
-            "nombre": "Genética y citología básica",
+            "nombre": "Meiosis y recombinación",
             "veces": 3
+          },
+          {
+            "nombre": "Topoisomerasa",
+            "veces": 3
+          },
+          {
+            "nombre": "Transcripción y promotores",
+            "veces": 1
+          },
+          {
+            "nombre": "Cultivo de leguminosas",
+            "veces": 1
           }
         ]
       },
       {
         "nombre": "Bioquímica",
-        "total": 0,
-        "temas": []
+        "total": 22,
+        "temas": [
+          {
+            "nombre": "Lipoproteínas y perfil lipídico",
+            "veces": 10
+          },
+          {
+            "nombre": "Metabolismo del glucógeno",
+            "veces": 5
+          },
+          {
+            "nombre": "Enfermedades del glucógeno",
+            "veces": 2
+          },
+          {
+            "nombre": "Metabolismo de lípidos",
+            "veces": 2
+          },
+          {
+            "nombre": "Metabolismo de aminoácidos",
+            "veces": 1
+          }
+        ]
       }
     ]
   },
