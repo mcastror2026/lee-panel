@@ -57,9 +57,9 @@
     ]
   },
   "servidor": {
-    "cpu_pct": 0,
+    "cpu_pct": 6,
     "ram_pct": 32,
-    "ram_usado_gb": "5,0",
+    "ram_usado_gb": "4,9",
     "ram_total_gb": "15,5",
     "disco_pct": 8
   },
